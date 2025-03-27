@@ -1,0 +1,27 @@
+@using SimBreviloquentDemo.Layout
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="flightMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Flight
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="flightMenu">
+        <li><NavLink class="dropdown-item" href="/flight-configuration">Flight Configuration</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/edit-weight-balance">Edit Weight & Balance</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/edit-failures">Edit Failures</NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><NavLink class="dropdown-item" href="/toggle-replay-mode">Toggle Replay Mode <span class="text-muted">Alt+R</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-map">Show Map <span class="text-muted">M</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-ios">Show IOS <span class="text-muted">I</span></NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><NavLink class="dropdown-item" href="/ai-flies-aircraft">A.I. Flies Your Aircraft</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/ai-controls-views">A.I. Controls Your Views</NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><NavLink class="dropdown-item" href="/show-key-shortcuts">Show Key Shortcuts</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/manage-profiles">Manage Keyboard & Joystick Profiles</NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><NavLink class="dropdown-item" href="/prep-electrical-systems">Prep Electrical Systems for Boarding</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/start-engines">Start Engines to Running <span class="text-muted">Shift+Ctrl+E</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/toggle-yoke-visibility">Toggle Yoke Visibility <span class="text-muted">Y</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-ground-handling">Show Ground Handling Window <span class="text-muted">Shift+G</span></NavLink></li>
+    </ul>
+</li>

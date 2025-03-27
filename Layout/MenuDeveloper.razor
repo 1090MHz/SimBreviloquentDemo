@@ -1,0 +1,31 @@
+@using SimBreviloquentDemo.Layout
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="developerMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Developer
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="developerMenu">
+        <li><NavLink class="dropdown-item" href="/reload-aircraft-art">Reload the Current Aircraft and Art</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/reload-aircraft-skip-art">Reload the Current Aircraft (Skip Art Reload)</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/reload-scenery">Reload the Scenery</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-autopilot-constants">Show Autopilot Constants</NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><NavLink class="dropdown-item" href="/output-flight-model-cycle">Output One Flight Model Cycle <span class="text-muted">Shift+M</span></NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><NavLink class="dropdown-item" href="/toggle-cockpit-data-output">Toggle Cockpit Data Output</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-data-output-graph">Show Data Output Graph <span class="text-muted">Ctrl+G</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/toggle-ground-traffic-paths">Toggle Ground Traffic Paths</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/toggle-air-traffic-paths">Toggle Air Traffic Paths</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/dump-to-log">Dump to Log ></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-projection-parameters">Show Projection Parameters</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-particle-system-browser">Show Particle System Browser</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-texture-browser">Show Texture Browser</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-microprofiler">Show Microprofiler</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-vram-profiler">Show VRAM Profiler</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-rain-inspector">Show Rain Inspector</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-fps-test-recorder">Show FPS Test Recorder</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/toggle-dev-console">Toggle Dev Console</NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+        <li><NavLink class="dropdown-item" href="/regenerate-icons">Regenerate Icons for Current Aircraft</NavLink></li>
+    </ul>
+</li>

@@ -1,0 +1,35 @@
+@using SimBreviloquentDemo.Layout
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="viewMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        View
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="viewMenu">
+        <!-- Move and Change -->
+        <li><NavLink class="dropdown-item" href="/move">Move</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/change-internal">Change (Internal)</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/change-external">Change (External)</NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+
+        <!-- Instrument Options -->
+        <li><NavLink class="dropdown-item" href="/show-instrument-click-regions">Show Instrument Click Regions</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-instrument-descriptions">Show Instrument Descriptions</NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+
+        <!-- 3-D Flight Model -->
+        <li><NavLink class="dropdown-item" href="/show-3d-flight-model">Show 3-D Flight Model <span class="text-muted">Ctrl+M</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/cycle-3d-flight-path">Cycle 3-D Flight Path <span class="text-muted">Ctrl+P</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/reset-3d-flight-path">Reset 3-D Flight Path <span class="text-muted">Shift+P</span></NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+
+        <!-- Camera and Visual Options -->
+        <li><NavLink class="dropdown-item" href="/lock-geographically">Lock Geographically</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/g-loaded-camera">G-Loaded Camera (Internal Views)</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/hand-held-camera">Hand-Held Camera (External Views) <span class="text-muted">Shift+C</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/sunglasses">Sunglasses <span class="text-muted">Shift+S</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/night-vision-goggles">Night Vision Goggles <span class="text-muted">Shift+N</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/oxygen-mask">Oxygen Mask</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/aviation-flashlight">Aviation Flashlight</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/show-screenshot-controls">Show Screenshot Controls</NavLink></li>
+    </ul>
+</li>

@@ -1,0 +1,30 @@
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="fileMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        File
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="fileMenu">
+        <!-- Main Menu -->
+        <li><NavLink class="dropdown-item" href="/main-menu">Main Menu</NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+
+        <!-- Save and Load -->
+        <li><NavLink class="dropdown-item" href="/save-flight">Save Flight</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/load-flight">Load Flight</NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+
+        <!-- Screenshot and Video -->
+        <li><NavLink class="dropdown-item" href="/take-screenshot">Take Screenshot <span class="text-muted">Shift+Space</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/toggle-video-recording">Toggle Video Recording <span class="text-muted">Ctrl+Space</span></NavLink></li>
+        <li><NavLink class="dropdown-item" href="/configure-video-recording">Configure Video Recording</NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+
+        <!-- Open Options -->
+        <li><NavLink class="dropdown-item" href="/open-logbook">Open Logbook</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/open-checklist">Open Checklist</NavLink></li>
+        <li><NavLink class="dropdown-item" href="/open-text-file">Open Text File</NavLink></li>
+        <li><hr class="dropdown-divider" /></li>
+
+        <!-- Quit -->
+        <li><NavLink class="dropdown-item text-danger" href="/quit">Quit</NavLink></li>
+    </ul>
+</li>
