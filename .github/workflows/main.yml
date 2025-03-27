@@ -21,11 +21,11 @@ jobs:
 
     # publishes Blazor project to the release-folder
     - name: Publish .NET Core Project
-      run: dotnet publish SimBreviloquentDemoDemo.csproj -c Release -o release --nologo
+      run: dotnet publish SimBreviloquentDemo.csproj -c Release -o release --nologo
     
-    # changes the base-tag in index.html from '/' to 'SimBreviloquentDemoDemo' to match GitHub Pages repository subdirectory
-    - name: Change base-tag in index.html from / to SimBreviloquentDemoDemo
-      run: sed -i 's/<base href="\/" \/>/<base href="\/SimBreviloquentDemoDemo\/" \/>/g' release/wwwroot/index.html
+    # changes the base-tag in index.html from '/' to 'SimBreviloquentDemo' to match GitHub Pages repository subdirectory
+    - name: Change base-tag in index.html from / to SimBreviloquentDemo
+      run: sed -i 's/<base href="\/" \/>/<base href="\/SimBreviloquentDemo\/" \/>/g' release/wwwroot/index.html
     
     # copy index.html to 404.html to serve the same file when a file is not found
     - name: copy index.html to 404.html
